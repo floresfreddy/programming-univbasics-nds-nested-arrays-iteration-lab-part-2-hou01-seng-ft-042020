@@ -4,7 +4,7 @@ def find_min_in_nested_arrays(src)
   count = 0 
   newarray= []
   while src[count]
-    newarray.push(src[count].sort.first)
+    newarray.push(src[count].min)
     count += 1 
   end
   newarray
